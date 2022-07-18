@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inter';
+    font-style: normal;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 1296px;
+    height: 56px;
+    top: 24px;
+}
+
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+.header__logo{
+    width: 238px;
+    height: 56px;
+}
+.header__title{
+    width: 170px;
+    margin: 12px 0 12px 8px;
+}
+.header__lists{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    width: 610px;
+    height: 56px;
+}
+.header__list{
+    display: flex;
+    list-style-type: none;
+}
+.header__link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #12141D;
+    margin: 0 20px;
+}
+.header__btn{
+    padding: 16px 24px;
+    width: 155px;
+    height: 56px;
+    border-radius: 8px;
+    background: #111E52;
+    color: #ffffff;
+}
+
+.nav {
+    display: flex;
+    height: 850px;
+    color: #12141D;
+    background: linear-gradient(0deg, #E9E9F9 0.76%, rgba(225, 226, 255, 0) 100%), #FFFFFF;
+
+}
+.nav__page{
+    display: inline-block;
+    position: relative;
+    width: 704px;
+    height: 384px;
+    top: 233px;
+}
+.nav__title{
+    
+    color: #12141D;
+    width: 704px;
+    height: 176px;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 88px;
+}
+.nav__title-yellow{
+    color: #FFC947;
+}
+.nav__text{
+    width: 636px;
+    height: 64px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    opacity: 0.8;
+    margin-top: 32px;
+}
+.nav__btn{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 16px 24px;
+    width: 369px;
+    height: 64px;
+    
+    color: #12141D;
+    background: #FFC947;
+    border: none;
+    border-radius: 8px;
+    margin-top: 48px;
+}
+.nav__picture{
+    position: absolute;
+    width: 590px;
+    height: 500px;
+    left: 720px;
+    top: 230px;
+    background: linear-gradient(148.79deg, #F82C2C 12.9%, #EC874E 29.15%, #E78B20 41.54%, #6C3DF4 54.7%, #FF2633 70.18%, #FF1818 87.21%);
+    filter: blur(90px);
+}
+.nav__img{
+    position: absolute;
+    position: absolute;
+    width: 799px;
+    height: 720px;
+    left: 550px;
+    top: 130px;
+    background: url("/img/girl.png");
+}
+.privilege{
+    height: 496px;
+    margin: 120px auto;
+}
+.privilege__title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 72px;
+    text-align: center;
+    color: #12141D;
+}
+.privilege__body{
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-between;
+    height: 280px;
+    width: 1296px;
+}
+.card-privilege{
+    width: 416px;
+    height: 280px;
+    background: #F9F9FF;
+    border-radius: 5px;
+    
+    text-align: center;
+}
+.card-privilege__img{
+    margin: 32px 176px 24px 176px;
+}
+.card-privilege__text{
+    margin: 24px 30px;
+    color: #12141D;
+}
+.content__page{
+    width: 1270px;
+    height: 144px;
+    margin-bottom: 56px;
+}
+.content__headline{
+    width: 50%;
+    display: inline-block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 72px;
+    color: #12141D;
+}
+.content__text{
+    display: inline-block;
+    width: 569px;
+    height: 84px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #12141D;
+    opacity: 0.7;
+}
+.entrusted{
+    height: 632px;
+    background: #F9F9FF;
+}
+.entrusted__heading{
+    width: 856px;
+    height: 144px;
+    margin-top: 72px;
+    padding: 60px 0;
+    font-weight: 500;
+    font-size: 56px;
+}
+
+.entrusted__cards{
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+
+}
+.entrusted__card{
+    width: 303px;
+}
+.entrusted__card-title{
+    margin: 32px 0 40px 0;
+}
+.title-statistic{
+    height: 144px;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 72px;
+    color: #12141D;
+    margin-top: 120px;
+    margin-bottom: 72px;
+}
+.filtr{
+    height: 136px;
+    background: #F9F9FF;
+    border: 1px solid #EEEFF1;
+    border-radius: 4px;
+}
+.filtr__form{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+}
+.filtr__form-title{
+    width: 45px;
+    height: 24px;
+    font-size: 24px;
+    margin: 24px 0 16px 24px;
+}
+.filtr__reset{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    border: none;
+    color: red;
+    background: #F9F9FF;
+    margin-right: 28px;
+}
+.filtr__form-submit{
+    display: flex;
+    justify-content: space-around;
+}
+.filtr__select{
+    width: 495px;
+    height: 48px;
+    padding: 12px;
+    background: #FAFBFC;
+    border: 1px solid #DFE2EA;
+    border-radius: 4px;
+    color: #7D89A1;
+
+}
+.filtr__btn{
+    background: #2F80ED;
+    box-shadow: 0px 4px 12px rgba(47, 128, 237, 0.25);
+    border-radius: 4px;
+    width: 226px;
+    height: 48px;
+    border: none;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.table{
+    height: 352px;
+    margin-top: 42px;
+}
+.table__title{
+background: #FAFAFA;
+}
+.table__name{
+justify-content: center;
+align-items: center;
+font-size: 16px;
+line-height: 24px;
+}
+.table-1{
+    width: 410.67px;
+height: 120px;
+}
+.table-3{
+    width: 63px;
+height: 120px;
+}
+.table-4{
+    width: 410.67px;
+height: 60px;
+}
+.table-5{
+    width: 205.33px;
+height: 60px;
+}
+.table__body{
+    height: 168px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.title__blue{
+    color: #1890FF;
+}
+.title__blue-box{
+    background: #E6F7FF;
+    border: 1px solid #91D5FF;
+    color: #1890FF;
+    border-radius: 2px;
+    padding: 1px 8px;
+}
+.telegram{
+    display: flex;
+    justify-content: space-between;
+    width: 1296px;
+    height: 147px;
+    margin-top: 235px;
+    background: linear-gradient(94.25deg, #2B59FF 0%, #BB2BFF 100%);
+    border-radius: 10px;
+    color: white;
+}
+.telegram__text{
+    width: 555px;
+    height: 80px;
+    font-weight: 400;
+    font-size: 32px;
+    margin: 30px 0px 33px 48px;
+}
+.telegram__btn{
+    width: 230px;
+    height: 64px;
+    margin: auto 40px;
+    background: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    border-color: #FFFFFF;
+    border-radius: 10px;
+}
+.news{
+    height: 620px;
+    margin-top: 57px;
+}
+.news__title{
+    width: 625px;
+    height: 144px;
+    font-weight: 500;
+    font-size: 56px;
+}
+.news__cards{
+    height: 420px;
+    display: flex;
+    justify-content: space-between;
+}
+.news__card{
+    width: 416px;
+    height: 420px;
+}
+.news__data{
+    height: 22px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #52525B;
+    margin-top: 24px;
+}
+.news__card-text{
+    margin-top: 16px;
+    width: 416px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.group{
+    display: flex;
+    justify-content: center;
+    height: 588px;
+    margin: 120px auto 160px auto;
+    
+    text-align: center;
+}
+.group__card{
+    width: 306px;
+    height: 588px;
+}
+.group__card-docum{
+    width: 320px;
+    height: 420px;
+}
+.group__title{
+    height: 24px;
+    font-weight: 500;
+    font-size: 24px;
+
+    line-height: 24px;
+}
+.group__text{
+    width: 303px;
+    height: 48px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    background-color: #313131;
+    
+    color: #FFFFFF;
+    height: 372px;
+}
+.footer__body{
+    display: flex;
+    height: 226px;
+    padding-top: 64px;
+
+}
+.footer__logo{
+    width: 416px;
+}
+.footer__logo-img{
+    margin-bottom: 32px;
+}
+.footer__page{
+    width: 250px;
+    padding-left: 100px;
+}
+.footer__network-title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 20px auto;
+}
+.footer-page--{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 5px auto;
+}
+.footeri__network{
+    width: 300px;
+}
+.footer__footer{
+    height: 75px;
+    border-top: 1px solid #414141;
+}
+.footer__end{
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
